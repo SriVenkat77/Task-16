@@ -1,0 +1,143 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #5e5edb;
+  color: rgb(248, 241, 241);
+}
+
+.navbar-logo {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.navbar-cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 65px;
+  
+}
+
+.navbar-cart svg {
+  font-size: 2.5rem;
+   
+}
+
+.navbar-cart-count {
+  position: absolute;
+  top: -8px;          
+  right: -25px;       
+  background-color: red;
+  color: white;
+  padding: 5px 10px;  
+  border-radius: 50%; 
+  font-size: 1.5rem;    
+  font-weight: bold;  
+}
+.details  {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #220b0b;
+}
+.nav-head{
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.nav-wink{
+   padding-right: 180px;
+}
+.nav-link{
+  padding-right: 25px;
+}
+
+.extra {
+font-size: 1.5rem;
+
+}
+.extratotal {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  
+  }
+
+.cart {
+  max-width: 100%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.cart-item div {
+  flex: 1;
+}
+
+.cart-item button {
+  padding: 5px 10px;
+  background-color: #7244e0;
+  color: white;
+  border-radius: 10%;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+}
+
+.cart-item button:hover {
+  background-color: #060404;
+}
+
+.cart-item span {
+  margin: 0 10px;
+}
+
+.cart-summary {
+  text-align: right;
+  padding: 20px 0;
+  margin-right: 70px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+.rating svg {
+  margin-right: 2px;
+}
+
+.rating span {
+  margin-left: 8px;
+  color: #555;
+}
+
